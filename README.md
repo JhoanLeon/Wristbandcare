@@ -8,3 +8,5 @@ Due to the specifications and restriccions for wearable techonology, electronics
 In the folder "Schematics information" there are Eagle libraries and relevant documentation for circuit design. The file "WristbandCare.zip" is the entire Eagle project of electronic device.
 
 Finally, the file "WristbandCare2.aia" is the executable mobile app developed with AppInventor for present information on health indicators and control the state of the wristbandcare.
+
+The other folders are codes to test every single sensor and peripheral (with arduino) and integration of these codes for global functionality in ATtiny167.
