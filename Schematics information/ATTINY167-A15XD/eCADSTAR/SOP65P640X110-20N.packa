@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "ATTINY167-A15XD"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-02-15-04:37:11)
+    (mountForm default
+        (footprintRef "SOP65P640X110-20N")
+        (spec "System")
+    )
+)

@@ -1,0 +1,9 @@
+Manufacturer=Microchip
+PartNumber=ATTINY167-A15XD
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=20
+Version=1.1
+Released=2020-02-15 04:37:11
+Downloaded=2021-04-09 06:16:04
+3D=Y

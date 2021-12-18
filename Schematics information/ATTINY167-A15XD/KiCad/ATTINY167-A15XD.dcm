@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ATTINY167-A15XD
+D 8-bit Microcontrollers - MCU 8-bit 16KB Flash LIN 15MHz Auto
+K
+F https://componentsearchengine.com/Datasheets/1/ATTINY167-A15XD.pdf
+$ENDCMP
+#
+#End Doc Library

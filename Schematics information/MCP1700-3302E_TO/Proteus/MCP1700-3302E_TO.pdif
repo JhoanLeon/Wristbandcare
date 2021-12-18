@@ -1,0 +1,151 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "MCP1700-3302E_TO"
+   (description "LDO Voltage Regulators 250mA LDO 2%")
+   (family "ANA")
+   (package "MCP17003302ETO")
+   (attribute "Datasheet Link" "http://ww1.microchip.com/downloads/en/DeviceDoc/MCP1700-Low-Quiescent-Current-LDO-20001826E.pdf")
+   (attribute "Geometry.Height" "5.334mm")
+   (attribute "Manufacturer_Name" "Microchip")
+   (attribute "Manufacturer_Part_Number" "MCP1700-3302E/TO")
+   (attribute "Mouser Part Number" "579-MCP1700-3302E/TO")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP1700-3302E-TO?qs=h7tZ5KkzNMMPEB66r2rMQw%3D%3D")
+   (attribute "Arrow Part Number" "MCP1700-3302E/TO")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/mcp1700-3302eto/microchip-technology")
+   (gate
+    (symbol "MCP1700-3302E_TO")
+    (pin "GND" 1 PS)
+    (pin "VIN" 2 PS)
+    (pin "VOUT" 3 PS)
+   )
+  )
+  (symbol "MCP1700-3302E_TO"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 700 100) (pt 700 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "MCP17003302ETO"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -1.143 -1.841)
+      (pt 3.683 -1.841)
+      (pt 3.683 -1.841)
+      (pt -1.143 -1.841)
+      (pt -1.143 -1.841))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.143 -1.841)
+      (pt 3.683 -1.841)
+      (pt 3.683 -1.841)
+      (pt -1.143 -1.841)
+      (pt -1.143 -1.841))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.6 3.413)
+      (pt 4.683 3.413)
+      (pt 4.683 -2.841)
+      (pt -3.6 -2.841)
+      (pt -3.6 3.413))))
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -1.143 0)
+      (pt -1.143 0)
+      (pt -1.143 -1.841)
+      (pt -1.143 -1.841)
+      (pt -1.143 0))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.143 0)
+      (pt -1.143 0)
+      (pt -1.143 -1.841)
+      (pt -1.143 -1.841)
+      (pt -1.143 0))))
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -1.143 0)
+      (arc (pt -1.143 0.000) (pt -1.143 -2.413) (pt 3.683 2.413) (start -180.0) (sweep 180.0))
+      (pt 3.683 0)
+      (pt 3.683 -1.841))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -1.143 0)
+      (arc (pt -1.143 0.000) (pt -1.143 -2.413) (pt 3.683 2.413) (start -180.0) (sweep 180.0))
+      (pt 3.683 0)
+      (pt 3.683 -1.841))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -2.6 0)
+      (arc (pt -2.600 0.000) (pt -2.600 -0.100) (pt -2.400 0.100) (start 180.0) (sweep -180.0))
+      (pt -2.4 0)
+      (arc (pt -2.400 0.000) (pt -2.600 -0.100) (pt -2.400 0.100) (start 180.0) (sweep .0))
+      (pt -2.6 0)
+      (arc (pt -2.600 0.000) (pt -2.600 -0.100) (pt -2.400 0.100) (start 180.0) (sweep -180.0))
+      (pt -2.4 0))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt 1.270 0.000) (padstack 0))
+   (leg 3 (pt 2.540 0.000) (padstack 0))
+   (padstack 0
+    (hole 0.7588)
+    (plated true)
+    (pad (layer TCOP) (round 1.000))
+    (pad (layer INNER) (round 1.000))
+    (pad (layer BCOP) (round 1.000))
+   )
+  )
+ )
+)

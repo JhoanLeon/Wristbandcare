@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MCP1700_3302E_TO'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Microchip", "MCP1700-3302E/TO" (!) = "", "MCP17003302ETO", "Other", "579-MCP1700-3302E/TO", "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP1700-3302E-TO?qs=h7tZ5KkzNMMPEB66r2rMQw%3D%3D", "MCP1700-3302E/TO", "https://www.arrow.com/en/products/mcp1700-3302eto/microchip-technology", "LDO Voltage Regulators 250mA LDO 2%", "http://ww1.microchip.com/downloads/en/DeviceDoc/MCP1700-Low-Quiescent-Current-LDO-20001826E.pdf", "5.334 mm"
+END_PART
+
+END.

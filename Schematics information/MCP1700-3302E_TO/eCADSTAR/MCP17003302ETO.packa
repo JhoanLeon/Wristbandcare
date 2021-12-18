@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "MCP1700-3302E_TO"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-10-28-18:45:32)
+    (mountForm default
+        (footprintRef "MCP17003302ETO")
+        (spec "System")
+    )
+)

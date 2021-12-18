@@ -1,0 +1,17 @@
+.MCP1700-3302E_TO :1 ;LDO Voltage Regulators 250mA LDO 2%
+MCP17003302ETO
+*STM IC
+*NGS
+*PLB 1="GND" 2="VIN" 3="VOUT"
+*MXP 3
+*DFN MCP1700-3302E_TO
+~!Manufacturer_Name (Microchip)
+~!Manufacturer_Part_Number (MCP1700-3302E/TO)
+~!Mouser Part Number (579-MCP1700-3302E/TO)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP1700-3302E-TO?qs=h7tZ5KkzNMMPEB66r2rMQw%3D%3D)
+~!Arrow Part Number (MCP1700-3302E/TO)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/mcp1700-3302eto/microchip-technology)
+~!Link Datasheet (http://ww1.microchip.com/downloads/en/DeviceDoc/MCP1700-Low-Quiescent-Current-LDO-20001826E.pdf)
+~!Height (5.334mm)
+MCP1700-3302E_TO
+1.1!U 2.1!U 3.1!U 

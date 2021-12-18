@@ -1,0 +1,72 @@
+(Japanese_coding: sjis)
+(function "ECS_13216735"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-10-28-18:45:32)
+    (utime 2020-10-28-19:17:10)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+        (port "3" (symbPinId 3) (portType INOUT))
+    )
+    (property "symbolName" "MCP1700-3302E_TO")
+)
+
+
+(pinAssign "ECS_13216735"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-10-28-18:45:32)
+    (utime 2020-10-28-19:17:10)
+    (interface
+        (port "1" (symbPinId 1) (portName "GND") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "VIN") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "VOUT") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_13216735")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "MCP1700-3302E_TO")
+)
+
+
+(part "MCP1700-3302E_TO"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-10-28-18:45:32)
+    (utime 2020-10-28-19:17:10)
+    (packageRef "MCP1700-3302E_TO")
+    (pinAssignRef "ECS_13216735")
+    (interface
+        (port "1" (symbPinId 1) (portName "GND") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "VIN") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "VOUT") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "IC")
+    (property "description" "LDO Voltage Regulators 250mA LDO 2%")
+    (property "Manufacturer_Name" "Microchip")
+    (property "Manufacturer_Part_Number" "MCP1700-3302E/TO")
+    (property "Mouser_Part_Number" "579-MCP1700-3302E/TO")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP1700-3302E-TO?qs=h7tZ5KkzNMMPEB66r2rMQw%3D%3D")
+    (property "Arrow_Part_Number" "MCP1700-3302E/TO")
+    (property "Arrow_Price/Stock" "https://www.arrow.com/en/products/mcp1700-3302eto/microchip-technology")
+    (property "Datasheet_Link" "http://ww1.microchip.com/downloads/en/DeviceDoc/MCP1700-Low-Quiescent-Current-LDO-20001826E.pdf")
+    (property "compAreaTopHeight" 5.334)
+)
+
+

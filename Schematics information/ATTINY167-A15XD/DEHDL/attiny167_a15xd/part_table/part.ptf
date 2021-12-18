@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ATTINY167_A15XD'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Microchip", "ATTINY167-A15XD" (!) = "", "SOP65P640X110-20N", "Small Outline Packages", "556-ATTINY167-A15XD", "https://www.mouser.com/Search/Refine.aspx?Keyword=556-ATTINY167-A15XD", "", "", "8-bit Microcontrollers - MCU 8-bit 16KB Flash LIN 15MHz Auto", "https://componentsearchengine.com/Datasheets/1/ATTINY167-A15XD.pdf", "1.1 mm"
+END_PART
+
+END.

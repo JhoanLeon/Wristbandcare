@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCP1700-3302E_TO
+D LDO Voltage Regulators 250mA LDO 2%
+K
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP1700-Low-Quiescent-Current-LDO-20001826E.pdf
+$ENDCMP
+#
+#End Doc Library
