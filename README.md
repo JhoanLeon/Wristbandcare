@@ -1,5 +1,5 @@
 # Wristbandcare
-Embedded system like a wearable bracelet to measure health indicators. Based on an 8-bit Atmel AVR microcontroller (ATtiny167). 
+Embedded system like a wearable bracelet to measure health indicators. Based on an 8-bit Atmel AVR microcontroller (ATtiny167). This project was done in the first semester of 2021.
 
 This system uses I2C, SPI and UART protocols for the communication between microcontroller and peripherals (sensors, bluetooth module and external flash memory). For the wireless sending of information it utilizes BLE protocol.
 
